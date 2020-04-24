@@ -513,7 +513,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/bank-app-ws/contas",
+					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/contas",
 					"protocol": "http",
 					"host": [
 						"ec2-18-228-137-75",
@@ -525,7 +525,6 @@
 					"port": "8080",
 					"path": [
 						"bank-ws",
-						"bank-app-ws",
 						"contas"
 					]
 				}
@@ -582,7 +581,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/bank-app-ws/clientes",
+					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/clientes",
 					"protocol": "http",
 					"host": [
 						"ec2-18-228-137-75",
@@ -594,7 +593,6 @@
 					"port": "8080",
 					"path": [
 						"bank-ws",
-						"bank-app-ws",
 						"clientes"
 					]
 				}
