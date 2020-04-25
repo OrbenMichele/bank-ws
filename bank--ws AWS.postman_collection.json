@@ -163,7 +163,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"pessoaTipo\":\"PF\",\n\t\"cadastroDetalhes\":{\n\t\t\"rg\":\"75658184\",\n\t\t\"orgaoEmissor\":\"SPR\",\n\t\t\"cpf\":\"4088452967\",\n\t\t\"nome\":\"Michele Orben\",\n\t\t\"apelido\":\"Chele\",\n\t\t\"email\":\"micheleorbe4n@gmail.com\",\n\t\t\"fone\":\"891835223\",\n\t\t\"enderecos\":[\n\t\t\t{\n\t\t\t\t\"rua\":\"Prudente de Moraes\",\n\t\t\t\t\"complemento\":\"apto 101\",\n\t\t\t\t\"numero\":1201,\n\t\t\t\t\"estado\":\"PR\",\n\t\t\t\t\"pais\":\"Brazil\",\n\t\t\t\t\"bairro\":\"Sao Francisco de Assis\",\n\t\t\t\t\"cep\":\"85660-000\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"rua\":\"David St\",\n\t\t\t\t\"complemento\":\"apto 708\",\n\t\t\t\t\"numero\":11201,\n\t\t\t\t\"estado\":\"SC\",\n\t\t\t\t\"pais\":\"Canadal\",\n\t\t\t\t\"bairro\":\"Centro\",\n\t\t\t\t\"cep\":\"V6E-2A0\"\n\t\t\t}\n\t\t]\n\t}\n}",
+					"raw": "{\n\t\"pessoaTipo\":\"PF\",\n\t\"cadastroDetalhes\":{\n\t\t\"rg\":\"75658184\",\n\t\t\"orgaoEmissor\":\"SPR\",\n\t\t\"cpf\":\"74088452967\",\n\t\t\"nome\":\"Michele Orben\",\n\t\t\"apelido\":\"Chele\",\n\t\t\"email\":\"micheleorbe4n@gmail.com\",\n\t\t\"fone\":\"89183523323\",\n\t\t\"enderecos\":[\n\t\t\t{\n\t\t\t\t\"rua\":\"Prudente de Moraes\",\n\t\t\t\t\"complemento\":\"apto 101\",\n\t\t\t\t\"numero\":1201,\n\t\t\t\t\"estado\":\"PR\",\n\t\t\t\t\"pais\":\"Brazil\",\n\t\t\t\t\"bairro\":\"Sao Francisco de Assis\",\n\t\t\t\t\"cep\":\"85660-000\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"rua\":\"David St\",\n\t\t\t\t\"complemento\":\"apto 708\",\n\t\t\t\t\"numero\":11201,\n\t\t\t\t\"estado\":\"SC\",\n\t\t\t\t\"pais\":\"Canadal\",\n\t\t\t\t\"bairro\":\"Centro\",\n\t\t\t\t\"cep\":\"V6E-2A0\"\n\t\t\t}\n\t\t]\n\t}\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -223,7 +223,7 @@
 					{
 						"key": "Authorization",
 						"type": "text",
-						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0ZTJAdGVzdC5jb20iLCJleHAiOjE1ODY4MTQ2MDh9.zPftVMtcX8NrofRQQpcd7yk-oiUB7vsYEmblDRpKXR-Ngs3BWpOBYZOcORNct8HZUQPY8eRovZ7jqoTz9I6_hw"
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjFAZ21haWwuY29tIiwiZXhwIjoxNTg4NjM3NjU0fQ.jSjUaVmNhxd4X4ticE_v1z-z40EoRZYLGbgA2KqnRhv2EpTFusRfbDEoTxlju3CTLdy3_AZOqZC0yg39Jrgt0g"
 					}
 				],
 				"body": {
@@ -236,7 +236,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/bank-app-ws/clientes/PJ",
+					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/clientes/PJ",
 					"protocol": "http",
 					"host": [
 						"ec2-18-228-137-75",
@@ -248,7 +248,6 @@
 					"port": "8080",
 					"path": [
 						"bank-ws",
-						"bank-app-ws",
 						"clientes",
 						"PJ"
 					]
@@ -306,7 +305,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/clientes/1BSv4pOqw7d1JlBRn0p1bZzdGzNsTv",
+					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/clientes/YM36RxVezJi3jhM8FJtlp0ahqueU5a",
 					"protocol": "http",
 					"host": [
 						"ec2-18-228-137-75",
@@ -319,7 +318,7 @@
 					"path": [
 						"bank-ws",
 						"clientes",
-						"1BSv4pOqw7d1JlBRn0p1bZzdGzNsTv"
+						"YM36RxVezJi3jhM8FJtlp0ahqueU5a"
 					]
 				}
 			},
@@ -444,7 +443,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/contas/1BSv4pOqw7d1JlBRn0p1bZzdGzNsTv",
+					"raw": "http://ec2-18-228-137-75.sa-east-1.compute.amazonaws.com:8080/bank-ws/contas/YM36RxVezJi3jhM8FJtlp0ahqueU5a",
 					"protocol": "http",
 					"host": [
 						"ec2-18-228-137-75",
@@ -457,7 +456,7 @@
 					"path": [
 						"bank-ws",
 						"contas",
-						"1BSv4pOqw7d1JlBRn0p1bZzdGzNsTv"
+						"YM36RxVezJi3jhM8FJtlp0ahqueU5a"
 					]
 				}
 			},
